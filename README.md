@@ -1,6 +1,10 @@
 # Project: Matrix Multiplier Mayhem - A Puzzle Game
 **Core Concept**: Players must arrange and multiply matrices to transform "data streams" into desired outputs. It's like a circuit/pipeline puzzle but with matrix operations.
 
+
+# Warning
+- Do not under any circumstances touch the javascript file (game.js) and if ever you feel you should use AI to help you, be mindful of the changes you make to the html templates and consider both your CSS and Javascript, since your javascript remains the same every change you make should conform to it. Do not worry, you dont need to know any javascript. This just serves as a warning.
+
 ## Game Design
 ### The "Story"
 - They are "Data Flow Engineers" who need to process raw data streams through transformation matrices to achieve target outputs.
