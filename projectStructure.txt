@@ -2,9 +2,16 @@ matrix_game/
 ├── app.py
 ├── matrix_lib.py
 ├── templates/
-│ ├── index.html
-│ ├── level_select.html
-│ └── game_board.html
-└── static/
-├── style.css
-└── game.js
+│   ├── index.html
+│   ├── level_select.html
+│   └── game_board.html
+├── static/
+│   ├── style.css
+│   └── game.js
+├── tests/
+│   ├── test_matrix_operations.py
+│   ├── test_flask_app.py
+│   ├── test_frontend_ui.py
+│   ├── test_integration.py
+│   └── conftest.py
+└── pytest.ini
