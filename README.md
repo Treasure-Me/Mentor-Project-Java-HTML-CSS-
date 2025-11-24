@@ -21,3 +21,47 @@
 ### Level 7+: The Inverse Challenge
 
 - Given output C and transformation B, find the original input A (introducing matrix inverses)
+
+## Test Setup
+
+### 1. Install Test Dependencies
+```bash
+pip install -r requirements-test.txt
+```
+### 2. Run Test Commands
+
+#### Run All Tests with Coverage
+```bash
+pytest --cov=matrix_game --cov-report=html
+```
+#### Run Specific Test Categories:
+
+#### Backend Algorithm Tests
+
+```bash
+pytest test_matrix_operations.py -v
+```
+
+#### Flask Application Tests:
+
+```bash
+pytest test_flask_app.py -v
+```
+
+#### Frontend UI Tests (requires ChromeDriver)
+
+```bash
+pytest test_frontend_ui.py -v --selenium
+```
+
+#### Integration Tests
+
+```bash
+pytest test_integration.py -v --integration
+```
+
+#### Run with Coverage Report
+
+```bash
+pytest --cov=matrix_game --cov-report=term-missing
+```
