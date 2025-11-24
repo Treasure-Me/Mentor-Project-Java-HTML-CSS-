@@ -1,0 +1,10 @@
+matrix_game/
+├── app.py
+├── matrix_lib.py
+├── templates/
+│ ├── index.html
+│ ├── level_select.html
+│ └── game_board.html
+└── static/
+├── style.css
+└── game.js
