@@ -129,7 +129,7 @@ session['completed_levels'] = [0, 1, 2]  # Track which levels are completed
 # Run the Flask application tests
 pytest tests/test_flask_app.py -v
 ```
-
+## NB: Make sure your server (app.py) is running before your run your front-end tests since they will fail if you run without it.
 ## 🎨 Phase 3: Frontend Integration (Week 2)
 
 ### Step 3.1: Complete HTML Templates
